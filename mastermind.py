@@ -1,6 +1,9 @@
 # I'm (a) coding Mastermind here!
 # Written by Danny Brown on November 19, 2017
-import random, re
+import random, re, sys
+
+if sys.version_info[0] < 3:
+        raise "Must be using Python 3"
 
 # Function Definitions
 def validateDifficulty():
